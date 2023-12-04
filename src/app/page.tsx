@@ -6,7 +6,7 @@ import { Register, create, init, setMemory } from './register';
 import { Terminal } from './components/Terminal';
 import { Memory } from './components/Memory';
 import { Console } from './components/Console';
-import { Editer } from './components/Editer';
+import { Editor } from './components/Editor';
 
 export default function Home() {
   const [register, setRegister] = useState<Register>(init())
