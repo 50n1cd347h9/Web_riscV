@@ -4,7 +4,7 @@ import styles from './page.module.css'
 import { Header } from './components/Header';
 import { Register, create, init, setMemory } from './register';
 import { Terminal } from './components/Terminal';
-import { Memory } from './components/Memory';
+import { MachineState } from './components/MachineState';
 import { Console } from './components/Console';
 import { Editor } from './components/Editor';
 
@@ -45,7 +45,7 @@ export default function Home() {
         <Editer register={register} setRegister={setRegister} setOutputs={setOutputs} stopProc={stopProc} setStopProc={setStopProc}/>
         }
         </div>
-        <Memory register={register}/>
+        <MachineState register={register}/>
       </div>
       <Console outputs={outputs} setOutput={setOutputs} stopProc={stopProc} setStopProc={setStopProc}/>
     </main>
