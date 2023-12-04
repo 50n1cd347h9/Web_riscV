@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from './page.module.css'
 import { Header } from './components/Header';
-import { Register, create, init, setMemory } from './register';
+import { Register, create, init, setMemory } from './features/register';
 import { Terminal } from './components/Terminal';
 import { MachineState } from './components/MachineState';
 import { Console } from './components/Console';

@@ -6,28 +6,7 @@ export const processCommand = (
 	setPC: React.Dispatch<React.SetStateAction<number>>,
 	setOutputs: Dispatch<SetStateAction<string>>
 ):string => {
-	
 
-  	// const errorMsg = (code: number, data:Array<string>) => {
-	// 	var msg:string;
-	// 	switch(code){
-	// 	case 0:
-	// 	msg = `command "${data[0]}" is not exist`
-	// 	break;
-	// 	case 1:
-	// 	msg = `${data[0]} is not number`
-	// 	break;
-	// 	case 2:
-	// 	msg = `register "${data[0]}" is not exist`
-	// 	break;
-	// 	case 3:
-	// 	msg = `wrong argument. follow this format:${data[0]}`
-	// 			break;
-	// 		case 4:
-	// 			msg = `symbol "${data[0]}" is not exist`;
-	// 	}
-	// 	response = false;
-  	// }
 	if(pc >= cmd.length) console.log("segmentetion foult!!")
 	console.log(pc + "↓")
 	console.log(cmd)

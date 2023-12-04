@@ -1,5 +1,5 @@
 import styles from "@/app/components/MachineState/memory.module.css"
-import { Register, toHex } from "@/app/register"
+import { Register, toHex } from "@/app/features/register"
 import { useState } from "react";
 import { BITS, BYTES } from "@/app/const"
 

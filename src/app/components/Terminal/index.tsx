@@ -1,6 +1,6 @@
-import { compile, processCommand } from "@/app/compile";
+import { compile, processCommand } from "@/app/features/compile";
 import styles from "@/app/components/Terminal/terminal.module.css"
-import { Register, create, resetDelta } from "@/app/register";
+import { Register, create, resetDelta } from "@/app/features/register";
 import { Dispatch, SetStateAction, useEffect, useRef, useState } from "react";
 
 export const Terminal = ({
